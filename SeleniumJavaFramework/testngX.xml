@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="SuiteX"  thread-count="3">
+  <test  name="TestXIE">
+  
+  <parameter name="browserName" value="IE"></parameter>
+    <classes>
+      <class name="config2.variousBrowserTest"/>
+    </classes>
+  </test> <!-- TestX -->
+  
+  <test  name="TestXchrome">
+  
+  <parameter name="browserName" value="chrome"></parameter>
+    <classes>
+      <class name="config2.variousBrowserTest"/>
+    </classes>
+  </test> <!-- TestX -->
+  
+  <test  name="TestXfirefox">
+  
+  <parameter name="browserName" value="firefox"></parameter>
+    <classes>
+      <class name="config2.variousBrowserTest"/>
+    </classes>
+  </test> <!-- TestX -->
+  
+</suite> <!-- SuiteX -->
