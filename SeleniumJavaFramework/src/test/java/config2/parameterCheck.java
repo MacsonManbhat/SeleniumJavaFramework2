@@ -12,8 +12,8 @@ public class parameterCheck {
 	@Test
 	public void onePlus(@Optional ("Macson") String name) {
 		
-		System.setProperty("webdriver.gecko.driver", "C:\\Users\\mmanbhat\\eclipse-workspace\\"
-				+ "SeleniumJavaFramework\\Drivers_AllBrowsers\\Gecko_Mozilla\\geckodriver.exe");
+		System.setProperty("webdriver.gecko.driver", "C:\\Users\\mmanbhat\\git\\SeleniumJavaFramework2.9\\SeleniumJavaFramework\\"
+				+ "Drivers_AllBrowsers\\Gecko_Mozilla\\geckodriver.exe");
 		WebDriver driver = new FirefoxDriver();
 		
 		driver.get("https://www.oneplus.com");
