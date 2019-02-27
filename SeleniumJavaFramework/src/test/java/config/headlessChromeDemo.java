@@ -16,8 +16,8 @@ public class headlessChromeDemo {
 	
 	public static void test()	{
 		
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\mmanbhat\\"
-				+ "eclipse-workspace\\SeleniumJavaFramework\\Drivers_AllBrowsers\\Chrome\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\mmanbhat\\git\\SeleniumJavaFramework2.9\\SeleniumJavaFramework\\"
+				+ "Drivers_AllBrowsers\\Chrome\\chromedriver.exe");
 		
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("headless");
